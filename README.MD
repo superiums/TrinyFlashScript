@@ -49,7 +49,7 @@ please choose your option：
   
 ### 用法:
 - 下载本脚本,和您的img文件放到同一文件夹下
-- 运行 sh TrinyFlashScript.sh
+- 运行 sudo sh TrinyFlashScript.sh
 - 选择需要的操作
 
 
