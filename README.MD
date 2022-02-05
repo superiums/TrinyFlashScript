@@ -10,7 +10,8 @@
 - automaticlly flash images.
 - specail network detection fix for Chinese.
 - specail isolate settings for Chinese.
-- 
+
+**** Please start with **root** permissions, or you may not able to touch your mobile devices.
 
 -----------------
 
@@ -25,4 +26,5 @@
 - 自动刷写image.
 - 修复中国地区网络图表上的x符号.
 - 可强制启用分区存储.
-- 
+  
+**** 您需要root权限启动本程序,否则可能无法识别到手机**

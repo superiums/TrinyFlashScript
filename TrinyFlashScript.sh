@@ -1,3 +1,4 @@
+#!/bin/bash
 slot=''
 is_userspace=''
 backup_dir="`pwd`/backup"
@@ -213,6 +214,7 @@ function menu(){
     echo "current image dir:$image_dir"
     echo "oprate work profile:$op_island"
     echo
+    echo "*** Please start with root permissions, or you may not able to touch your mobile devices."
     echo "0. settings"
     echo "1. backup apks"
     echo "2. backup dirs"
