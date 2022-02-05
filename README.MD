@@ -11,7 +11,27 @@
 - specail network detection fix for Chinese.
 - specail isolate settings for Chinese.
 
+### usage:
+- put this script in the same folder as your image files.
+- sudo sh TrinyFlashScript.
+- choose your options.
 **** Please start with **root** permissions, or you may not able to touch your mobile devices.
+
+### screen shot:
+0. settings
+1. backup apks
+2. backup dirs
+3. reboot to bootloader
+4. reboot to fastbootD
+5. flash common partitions
+6. flash supper partitions
+7. flash all
+8. restore apks
+9. restore dirs
+10. special settings for chinese
+q. exit
+
+please choose your option：
 
 -----------------
 
@@ -27,4 +47,10 @@
 - 修复中国地区网络图表上的x符号.
 - 可强制启用分区存储.
   
+### 用法:
+- 下载本脚本,和您的img文件放到同一文件夹下
+- 运行 sh TrinyFlashScript.sh
+- 选择需要的操作
+
+
 **** 您需要root权限启动本程序,否则可能无法识别到手机**

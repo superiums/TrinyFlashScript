@@ -50,7 +50,7 @@ function do_flash(){
         echo "    File not exist: $image, skipped";
         return
     fi
-    echo fastboot flash $1_$slot $image
+    fastboot flash $1_$slot $image
     if [ "$?" -gt 0 ]; then
         echo "    Failed while flash ${$1}${slot}";
     else
@@ -69,7 +69,7 @@ function flash_common(){
             do_flash $c $c.img
         done
         echo "wiping cache and data"
-        echo fastboot -w
+        fastboot -w
     fi
     echo "done in common"
 }
@@ -84,7 +84,7 @@ function flash_supper(){
             do_flash $c $c.img
         done
         echo "wiping cache and data"
-        echo fastboot -w
+        fastboot -w
     fi
     echo "done in supper"
 }
